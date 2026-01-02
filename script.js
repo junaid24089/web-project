@@ -39,10 +39,19 @@ mode.addEventListener("click", () => {
   if (h01.innerText === "🌙") {
     h01.innerText = "☀️";
     h01.style.backgroundColor="#7c3aed";
+    body.style.backgroundColor="#333";
+    body.style.color="white";
   } else {
     h01.innerText = "🌙";
     h01.style.backgroundColor="#c084fc";
+    body.style.backgroundColor="white";
+    body.style.color="black";
   }
+   
+
+
 
 });
+
+
 
