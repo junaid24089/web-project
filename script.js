@@ -26,6 +26,11 @@ btnCg.addEventListener("click",()=>{
 	console.log(input.value);
 	text.innerText=input.value;
 	body.style.backgroundColor=input.value;
+	if(input.value=="black"){
+    body.style.color="white";
+  }else{
+    body.style.color="black";
+  }
 })
 
 let mode = document.querySelector(".mode");
@@ -52,6 +57,7 @@ mode.addEventListener("click", () => {
 
 
 });
+
 
 
 
